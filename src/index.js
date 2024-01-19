@@ -86,7 +86,7 @@ const Index = () => {
     formData.append("para", para);
     formData.append("linkedInLink", linkedIn);
     formData.append("instagramLink", insta);
-    fetch("https://portfoliifybackend-tp8u.onrender.com", {
+    fetch("https://portfoliifybackend-tp8u.onrender.com/upload", {
       method: "POST",
       body: formData,
     })
